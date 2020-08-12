@@ -1,4 +1,4 @@
-let main = document.geElementById('main');
+let main = document.querySelector('main');
 main.remove();
 let newHeader=document.createElement('h');
 newHeader.id="victory";
